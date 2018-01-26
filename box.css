@@ -1,0 +1,40 @@
+body{
+    background-color: azure;
+    
+}
+.box{
+    border: 1px solid gray;
+    min-height: 200px;
+    width: 20%;
+    position: absolute;
+    
+}
+.child1{
+    background-color: aqua;
+    left: 0px;
+}
+.child2{
+    background-color: bisque;
+    right: 0px;
+}
+.child3{
+    background-color: cornsilk;
+    bottom: 0px;
+}
+.child4{
+    background-color:dodgerblue;
+    bottom: 0px;
+    right: 0px;
+}
+.child5{
+    background-color: brown;
+    top: 33%;
+    left: 40%;
+}
+.parent{
+    background-color: gray;
+    width: 70%;
+    min-height:1100px;
+    margin: 0px auto;
+    position: relative;
+}
